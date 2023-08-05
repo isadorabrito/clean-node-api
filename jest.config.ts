@@ -1,7 +1,10 @@
 import type { Config } from 'jest'
 
 const config: Config = {
-  verbose: true
+  verbose: true,
+  transform: {
+    '.+\\.ts$': 'ts-jest'
+  }
 }
 
 export default config
