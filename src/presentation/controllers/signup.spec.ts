@@ -107,6 +107,6 @@ describe('SignUp Controller', () => {
       }
     }
     sut.handle(httpRequest)
-    expect(isValidSpy).toHaveBeenCalledWith('any_email@gmail.com')
+    expect(isValidSpy).toHaveBeenCalledWith('any_email@mail.com')
   })
 })
